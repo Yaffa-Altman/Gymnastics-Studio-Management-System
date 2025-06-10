@@ -1,0 +1,11 @@
+<mat-card class="card" [ngClass]="start ? 'bold': ''">
+    <mat-card-header class="card2">
+        <mat-card-title [ngClass]="start ? 'boldTitle': ''">{{lessonDetails.name}}</mat-card-title>
+        <mat-card-subtitle>שם המורה: {{lessonDetails.teacherName}}</mat-card-subtitle>
+        <mat-card-subtitle>מספר מפגשים: {{lessonDetails.numSessions}}</mat-card-subtitle>
+        <mat-card-subtitle>תאריך תחילת הקורס: {{lessonDetails.startDate}}</mat-card-subtitle>
+        <mat-card-subtitle>מחיר: {{lessonDetails.price}}</mat-card-subtitle>
+        <mat-card-subtitle>מספר יום בשבוע: {{lessonDetails.day}}</mat-card-subtitle>
+        <mat-card-subtitle>שעה: {{lessonDetails.time}}</mat-card-subtitle>
+    </mat-card-header>
+</mat-card>

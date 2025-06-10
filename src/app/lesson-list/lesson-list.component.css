@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexItem {
+    margin: 2%;
+}
+
+div {
+    background-image: url('./background_Gym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

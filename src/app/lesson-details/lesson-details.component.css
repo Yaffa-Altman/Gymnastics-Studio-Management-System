@@ -1,0 +1,16 @@
+.card {
+    box-shadow: 1px 7px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px 30px 30px 30px;
+}
+
+.card2 {
+    direction: rtl;
+}
+
+.bold {
+    box-shadow: 1px 7px 8px 0 rgba(190, 139, 62, 0.911), 0 4px 10px 0 rgba(190, 139, 62, 0.911);
+}
+
+.boldTitle {
+    color: rgba(190, 139, 62, 0.911);
+}
